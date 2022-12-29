@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5611F8DE293875D0007AFE63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611F8DD293875D0007AFE63 /* AppDelegate.m */; };
+		5611F8E4293875D0007AFE63 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5611F8E3293875D0007AFE63 /* ViewController.mm */; };
+		5611F8E9293875D2007AFE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5611F8E8293875D2007AFE63 /* Assets.xcassets */; };
+		5611F8EC293875D2007AFE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5611F8EA293875D2007AFE63 /* LaunchScreen.storyboard */; };
+		5611F8EF293875D2007AFE63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611F8EE293875D2007AFE63 /* main.m */; };
+		5611F8F9293875D3007AFE63 /* RTAU_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611F8F8293875D3007AFE63 /* RTAU_TestTests.m */; };
+		5611F903293875D3007AFE63 /* RTAU_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611F902293875D3007AFE63 /* RTAU_TestUITests.m */; };
+		5611F905293875D3007AFE63 /* RTAU_TestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611F904293875D3007AFE63 /* RTAU_TestUITestsLaunchTests.m */; };
+		56149ADE2952DF4200266528 /* TokenTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 56149ADD2952DF4200266528 /* TokenTest.mm */; };
+		568B6C2C295ACC80000A4ACC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 568B6C2B295ACC80000A4ACC /* MBProgressHUD.m */; };
+		568B6C2E295D8434000A4ACC /* RTAU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568B6C2D295D8434000A4ACC /* RTAU.framework */; };
+		9D898D9C5A4227B379070FB4 /* Pods_RTAU_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B75E311A90B73546A9191B /* Pods_RTAU_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5611F8F5293875D3007AFE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5611F8D1293875D0007AFE63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5611F8D8293875D0007AFE63;
+			remoteInfo = RTAU_Test;
+		};
+		5611F8FF293875D3007AFE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5611F8D1293875D0007AFE63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5611F8D8293875D0007AFE63;
+			remoteInfo = RTAU_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42EA303556D8DCDDF19CB372 /* Pods-RTAU_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTAU_Test.debug.xcconfig"; path = "Target Support Files/Pods-RTAU_Test/Pods-RTAU_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		45899C6AAB1B363BA17426F1 /* Pods-RTAU_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTAU_Test.release.xcconfig"; path = "Target Support Files/Pods-RTAU_Test/Pods-RTAU_Test.release.xcconfig"; sourceTree = "<group>"; };
+		5611F8D9293875D0007AFE63 /* RTAU_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTAU_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5611F8DC293875D0007AFE63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5611F8DD293875D0007AFE63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5611F8E2293875D0007AFE63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5611F8E3293875D0007AFE63 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		5611F8E8293875D2007AFE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5611F8EB293875D2007AFE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5611F8ED293875D2007AFE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5611F8EE293875D2007AFE63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5611F8F4293875D3007AFE63 /* RTAU_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTAU_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5611F8F8293875D3007AFE63 /* RTAU_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAU_TestTests.m; sourceTree = "<group>"; };
+		5611F8FE293875D3007AFE63 /* RTAU_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTAU_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5611F902293875D3007AFE63 /* RTAU_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAU_TestUITests.m; sourceTree = "<group>"; };
+		5611F904293875D3007AFE63 /* RTAU_TestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAU_TestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		56149ADC2952DF4200266528 /* TokenTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenTest.h; sourceTree = "<group>"; };
+		56149ADD2952DF4200266528 /* TokenTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TokenTest.mm; sourceTree = "<group>"; };
+		568B6C2A295ACC80000A4ACC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		568B6C2B295ACC80000A4ACC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		568B6C2D295D8434000A4ACC /* RTAU.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RTAU.framework; sourceTree = "<group>"; };
+		56B75E311A90B73546A9191B /* Pods_RTAU_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTAU_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5611F8D6293875D0007AFE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568B6C2E295D8434000A4ACC /* RTAU.framework in Frameworks */,
+				9D898D9C5A4227B379070FB4 /* Pods_RTAU_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5611F8F1293875D3007AFE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5611F8FB293875D3007AFE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C098EC576374B6374DC4B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56B75E311A90B73546A9191B /* Pods_RTAU_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5611F8D0293875D0007AFE63 = {
+			isa = PBXGroup;
+			children = (
+				568B6C2D295D8434000A4ACC /* RTAU.framework */,
+				5611F8DB293875D0007AFE63 /* RTAU_Test */,
+				5611F8F7293875D3007AFE63 /* RTAU_TestTests */,
+				5611F901293875D3007AFE63 /* RTAU_TestUITests */,
+				5611F8DA293875D0007AFE63 /* Products */,
+				11C098EC576374B6374DC4B6 /* Frameworks */,
+				E559F7F7F0053941B88C2690 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5611F8DA293875D0007AFE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5611F8D9293875D0007AFE63 /* RTAU_Test.app */,
+				5611F8F4293875D3007AFE63 /* RTAU_TestTests.xctest */,
+				5611F8FE293875D3007AFE63 /* RTAU_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5611F8DB293875D0007AFE63 /* RTAU_Test */ = {
+			isa = PBXGroup;
+			children = (
+				568B6C2A295ACC80000A4ACC /* MBProgressHUD.h */,
+				568B6C2B295ACC80000A4ACC /* MBProgressHUD.m */,
+				5611F8DC293875D0007AFE63 /* AppDelegate.h */,
+				5611F8DD293875D0007AFE63 /* AppDelegate.m */,
+				56149ADC2952DF4200266528 /* TokenTest.h */,
+				56149ADD2952DF4200266528 /* TokenTest.mm */,
+				5611F8E2293875D0007AFE63 /* ViewController.h */,
+				5611F8E3293875D0007AFE63 /* ViewController.mm */,
+				5611F8E8293875D2007AFE63 /* Assets.xcassets */,
+				5611F8EA293875D2007AFE63 /* LaunchScreen.storyboard */,
+				5611F8ED293875D2007AFE63 /* Info.plist */,
+				5611F8EE293875D2007AFE63 /* main.m */,
+			);
+			path = RTAU_Test;
+			sourceTree = "<group>";
+		};
+		5611F8F7293875D3007AFE63 /* RTAU_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5611F8F8293875D3007AFE63 /* RTAU_TestTests.m */,
+			);
+			path = RTAU_TestTests;
+			sourceTree = "<group>";
+		};
+		5611F901293875D3007AFE63 /* RTAU_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5611F902293875D3007AFE63 /* RTAU_TestUITests.m */,
+				5611F904293875D3007AFE63 /* RTAU_TestUITestsLaunchTests.m */,
+			);
+			path = RTAU_TestUITests;
+			sourceTree = "<group>";
+		};
+		E559F7F7F0053941B88C2690 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42EA303556D8DCDDF19CB372 /* Pods-RTAU_Test.debug.xcconfig */,
+				45899C6AAB1B363BA17426F1 /* Pods-RTAU_Test.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5611F8D8293875D0007AFE63 /* RTAU_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5611F908293875D3007AFE63 /* Build configuration list for PBXNativeTarget "RTAU_Test" */;
+			buildPhases = (
+				A83D0391DBF2385A7DE90757 /* [CP] Check Pods Manifest.lock */,
+				5611F8D5293875D0007AFE63 /* Sources */,
+				5611F8D6293875D0007AFE63 /* Frameworks */,
+				5611F8D7293875D0007AFE63 /* Resources */,
+				658E0C4CD2F69DFD3D3A2FA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTAU_Test;
+			productName = RTAU_Test;
+			productReference = 5611F8D9293875D0007AFE63 /* RTAU_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5611F8F3293875D3007AFE63 /* RTAU_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5611F90B293875D3007AFE63 /* Build configuration list for PBXNativeTarget "RTAU_TestTests" */;
+			buildPhases = (
+				5611F8F0293875D3007AFE63 /* Sources */,
+				5611F8F1293875D3007AFE63 /* Frameworks */,
+				5611F8F2293875D3007AFE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5611F8F6293875D3007AFE63 /* PBXTargetDependency */,
+			);
+			name = RTAU_TestTests;
+			productName = RTAU_TestTests;
+			productReference = 5611F8F4293875D3007AFE63 /* RTAU_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5611F8FD293875D3007AFE63 /* RTAU_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5611F90E293875D3007AFE63 /* Build configuration list for PBXNativeTarget "RTAU_TestUITests" */;
+			buildPhases = (
+				5611F8FA293875D3007AFE63 /* Sources */,
+				5611F8FB293875D3007AFE63 /* Frameworks */,
+				5611F8FC293875D3007AFE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5611F900293875D3007AFE63 /* PBXTargetDependency */,
+			);
+			name = RTAU_TestUITests;
+			productName = RTAU_TestUITests;
+			productReference = 5611F8FE293875D3007AFE63 /* RTAU_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5611F8D1293875D0007AFE63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5611F8D8293875D0007AFE63 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					5611F8F3293875D3007AFE63 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5611F8D8293875D0007AFE63;
+					};
+					5611F8FD293875D3007AFE63 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5611F8D8293875D0007AFE63;
+					};
+				};
+			};
+			buildConfigurationList = 5611F8D4293875D0007AFE63 /* Build configuration list for PBXProject "RTAU_Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5611F8D0293875D0007AFE63;
+			productRefGroup = 5611F8DA293875D0007AFE63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5611F8D8293875D0007AFE63 /* RTAU_Test */,
+				5611F8F3293875D3007AFE63 /* RTAU_TestTests */,
+				5611F8FD293875D3007AFE63 /* RTAU_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5611F8D7293875D0007AFE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5611F8EC293875D2007AFE63 /* LaunchScreen.storyboard in Resources */,
+				5611F8E9293875D2007AFE63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5611F8F2293875D3007AFE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5611F8FC293875D3007AFE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		658E0C4CD2F69DFD3D3A2FA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RTAU_Test/Pods-RTAU_Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RTAU_Test/Pods-RTAU_Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RTAU_Test/Pods-RTAU_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83D0391DBF2385A7DE90757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTAU_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5611F8D5293875D0007AFE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5611F8E4293875D0007AFE63 /* ViewController.mm in Sources */,
+				5611F8DE293875D0007AFE63 /* AppDelegate.m in Sources */,
+				568B6C2C295ACC80000A4ACC /* MBProgressHUD.m in Sources */,
+				5611F8EF293875D2007AFE63 /* main.m in Sources */,
+				56149ADE2952DF4200266528 /* TokenTest.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5611F8F0293875D3007AFE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5611F8F9293875D3007AFE63 /* RTAU_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5611F8FA293875D3007AFE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5611F905293875D3007AFE63 /* RTAU_TestUITestsLaunchTests.m in Sources */,
+				5611F903293875D3007AFE63 /* RTAU_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5611F8F6293875D3007AFE63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5611F8D8293875D0007AFE63 /* RTAU_Test */;
+			targetProxy = 5611F8F5293875D3007AFE63 /* PBXContainerItemProxy */;
+		};
+		5611F900293875D3007AFE63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5611F8D8293875D0007AFE63 /* RTAU_Test */;
+			targetProxy = 5611F8FF293875D3007AFE63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5611F8EA293875D2007AFE63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5611F8EB293875D2007AFE63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5611F906293875D3007AFE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5611F907293875D3007AFE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5611F909293875D3007AFE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42EA303556D8DCDDF19CB372 /* Pods-RTAU_Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85Q2285229;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RTAU_Test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "YS.RTAU-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+			};
+			name = Debug;
+		};
+		5611F90A293875D3007AFE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45899C6AAB1B363BA17426F1 /* Pods-RTAU_Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85Q2285229;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RTAU_Test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "YS.RTAU-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+			};
+			name = Release;
+		};
+		5611F90C293875D3007AFE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85Q2285229;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YS.RTAU-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTAU_Test.app/RTAU_Test";
+			};
+			name = Debug;
+		};
+		5611F90D293875D3007AFE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85Q2285229;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YS.RTAU-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTAU_Test.app/RTAU_Test";
+			};
+			name = Release;
+		};
+		5611F90F293875D3007AFE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85Q2285229;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YS.RTAU-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RTAU_Test;
+			};
+			name = Debug;
+		};
+		5611F910293875D3007AFE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85Q2285229;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YS.RTAU-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RTAU_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5611F8D4293875D0007AFE63 /* Build configuration list for PBXProject "RTAU_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5611F906293875D3007AFE63 /* Debug */,
+				5611F907293875D3007AFE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5611F908293875D3007AFE63 /* Build configuration list for PBXNativeTarget "RTAU_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5611F909293875D3007AFE63 /* Debug */,
+				5611F90A293875D3007AFE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5611F90B293875D3007AFE63 /* Build configuration list for PBXNativeTarget "RTAU_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5611F90C293875D3007AFE63 /* Debug */,
+				5611F90D293875D3007AFE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5611F90E293875D3007AFE63 /* Build configuration list for PBXNativeTarget "RTAU_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5611F90F293875D3007AFE63 /* Debug */,
+				5611F910293875D3007AFE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5611F8D1293875D0007AFE63 /* Project object */;
+}

@@ -1,0 +1,13 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'RTAU_Test' do
+
+pod 'AgoraRtcEngine_iOS', '~> 4.0.0-rc.1'
+pod 'Masonry'
+
+end
+
+
+
+

@@ -1,0 +1,6 @@
+framework module RTAU {
+  umbrella header "RTAU.h"
+
+  export *
+  module * { export * }
+}
